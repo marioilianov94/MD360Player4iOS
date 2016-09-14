@@ -57,6 +57,7 @@ static float sScaleMax = 4.0f;
         if([self.advanceGestureListener respondsToSelector:@selector(onDragDistanceX:distanceY:)]){
             float deltaX = (location.x - prevPoint.x) * sMDDamping;
             float deltaY = (location.y - prevPoint.y) * sMDDamping;
+            //float deltaY = 0.0;
             [self.advanceGestureListener onDragDistanceX:deltaX/currentScale distanceY:deltaY/currentScale];
         }
         prevPoint = location;
