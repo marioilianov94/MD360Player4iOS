@@ -99,7 +99,7 @@ int generateDome (float radius, int numSlices, MDDome3D* object3D) {
             int vertex = ( i * (numSlices + 1) + j ) * 3;
             
             if ( vertices ) {
-                vertices[vertex + 0] = radius * sinf ( angleStep * (float)i ) * sinf ( angleStep * (float)j ) * upper;
+                vertices[vertex + 0] = radius * sinf ( angleStep * (float)i ) * sinf ( angleStep * (float)j ) * (-upper);
                 vertices[vertex + 1] = radius * sinf ( ES_PI/2 + angleStep * (float)i ) * upper;
                 vertices[vertex + 2] = radius * sinf ( angleStep * (float)i ) * cosf ( angleStep * (float)j );
             }
