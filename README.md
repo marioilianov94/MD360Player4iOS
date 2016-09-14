@@ -179,36 +179,5 @@ self.vrLibrary = [config build];
 ```
 See [BitmapPlayerViewController.m](https://github.com/ashqal/MD360Player4iOS/blob/master/MD360Player4iOS/BitmapPlayerViewController.m)
 
-## Reference
-* [HTY360Player(360 VR Player for iOS)](https://github.com/hanton/HTY360Player)
-* [VideoPlayer-iOS](https://github.com/davidAgo4g/VideoPlayer-iOS)
-* [iOS-OpenGLES-Stuff](https://github.com/jlamarche/iOS-OpenGLES-Stuff)
-* [Thanks to vimeo/VIMVideoPlayer](https://github.com/vimeo/VIMVideoPlayer)
-* [Moredoo.com](http://www.moredoo.com/)
-
-
 # Android Version
 [MD360Player4Android](https://github.com/ashqal/MD360Player4Android)
-
-## Feedback
-* Open a new issue
-* or ashqalcn@gmail.com
-* or QQ Group<br/>
-![QQ Group](https://cloud.githubusercontent.com/assets/5126517/15381968/5a0e56a2-1db7-11e6-986e-462d96dd5e02.jpeg)
-
-##LICENSE
-```
-Copyright 2016 Asha
-
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
